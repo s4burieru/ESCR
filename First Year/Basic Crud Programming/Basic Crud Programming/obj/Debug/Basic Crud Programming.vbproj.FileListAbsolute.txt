@@ -1,0 +1,11 @@
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\bin\Debug\Basic Crud Programming.exe.config
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\bin\Debug\Database1.sdf
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\bin\Debug\Basic Crud Programming.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\bin\Debug\Basic Crud Programming.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\bin\Debug\Basic Crud Programming.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic_Crud_Programming.Form1.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic_Crud_Programming.Resources.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic Crud Programming.vbproj.GenerateResource.Cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic Crud Programming.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic Crud Programming.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Crud Programming\Basic Crud Programming\obj\Debug\Basic Crud Programming.pdb
