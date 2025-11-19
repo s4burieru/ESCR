@@ -1,0 +1,12 @@
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\bin\Debug\Basic Login with Local DB.exe.config
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\bin\Debug\Database1.sdf
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\bin\Debug\Basic Login with Local DB.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\bin\Debug\Basic Login with Local DB.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\bin\Debug\Basic Login with Local DB.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic_Login_with_Local_DB.Form1.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic_Login_with_Local_DB.Resources.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic Login with Local DB.vbproj.GenerateResource.Cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic Login with Local DB.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic Login with Local DB.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic Login with Local DB.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Basic Login with Local DB\Basic Login with Local DB\obj\Debug\Basic_Login_with_Local_DB.Form2.resources
