@@ -1,0 +1,13 @@
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\bin\Debug\Login and Roles using Local Database.exe.config
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\bin\Debug\Database1.sdf
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\bin\Debug\Login and Roles using Local Database.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\bin\Debug\Login and Roles using Local Database.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\bin\Debug\Login and Roles using Local Database.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login_and_Roles_using_Local_Database.Form1.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login_and_Roles_using_Local_Database.Form2.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login_and_Roles_using_Local_Database.Form3.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login_and_Roles_using_Local_Database.Resources.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login and Roles using Local Database.vbproj.GenerateResource.Cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login and Roles using Local Database.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login and Roles using Local Database.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Login and Roles using Local Database\Login and Roles using Local Database\obj\Debug\Login and Roles using Local Database.pdb
