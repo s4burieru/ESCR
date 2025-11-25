@@ -1,0 +1,17 @@
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\bin\Debug\Simple Inventory Structure with Local DB.exe.config
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\bin\Debug\Database1.sdf
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\bin\Debug\Simple Inventory Structure with Local DB.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\bin\Debug\Simple Inventory Structure with Local DB.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\bin\Debug\Simple Inventory Structure with Local DB.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple_Inventory_Structure_with_Local_DB.Form1.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple_Inventory_Structure_with_Local_DB.Form2.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple_Inventory_Structure_with_Local_DB.Form3.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple_Inventory_Structure_with_Local_DB.Resources.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple Inventory Structure with Local DB.vbproj.GenerateResource.Cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple Inventory Structure with Local DB.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple Inventory Structure with Local DB.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple Inventory Structure with Local DB.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple Inventory Structure with Local DB.vbprojResolveAssemblyReference.cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\Simple_Inventory_Structure_with_Local_DB.Form4.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\RdlCompile.cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\Simple Inventory Structure with Local DB\Simple Inventory Structure with Local DB\obj\Debug\RdlCompile.compiled
