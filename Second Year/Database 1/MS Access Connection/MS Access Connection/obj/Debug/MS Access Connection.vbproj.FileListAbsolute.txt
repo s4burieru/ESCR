@@ -1,0 +1,11 @@
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\bin\Debug\MS Access Connection.exe.config
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\bin\Debug\MS Access Connection.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\bin\Debug\MS Access Connection.pdb
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\bin\Debug\MS Access Connection.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS_Access_Connection.Form1.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS_Access_Connection.Form2.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS_Access_Connection.Resources.resources
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS Access Connection.vbproj.GenerateResource.Cache
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS Access Connection.exe
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS Access Connection.xml
+c:\users\mylaptop\documents\visual studio 2012\Projects\MS Access Connection\MS Access Connection\obj\Debug\MS Access Connection.pdb
