@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f5;
+  color: #171717;
+  line-height: 1.6;
+}
+
+
+header {
+  background: #171717;
+  color: white;
+  padding: 70px 8%;
+  border-bottom: 6px solid #294c7a;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #bfc9d6;
+  font-size: 17px;
+}
+
+
+main {
+  width: 88%;
+  max-width: 1000px;
+  margin: 45px auto;
+}
+
+section {
+  background: white;
+  border: 1px solid #d4d4d4;
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #171717;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #294c7a;
+  margin-top: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+  color: #3d3d3d;
+}
+
+
+img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: 25px auto 5px;
+  border: 3px solid #171717;
+}
+
+
+ul,
+ol {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #bdbdbd;
+  padding: 13px 12px;
+  text-align: left;
+}
+
+th {
+  background: #171717;
+  color: white;
+  font-weight: 600;
+}
+
+td {
+  background: #fff;
+}
+
+tr:nth-child(even) td {
+  background: #f1f1f1;
+}
+
+
+a {
+  color: #294c7a;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #171717;
+}
+
+
+footer {
+  background: #171717;
+  color: #ddd;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #ddd;
+  margin: 0;
+}
+
+
+@media (max-width: 700px) {
+  header {
+    padding: 50px 6%;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  main {
+    width: 94%;
+    margin: 30px auto;
+  }
+
+  section {
+    padding: 24px;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
