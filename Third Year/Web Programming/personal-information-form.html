@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data Sheet</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #111;
+      }
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+      .sheet {
+        width: 100vw;
+        min-height: 100vh;
+        padding: 10px 4px 24px;
+      }
+      h1 {
+        margin: 0 0 5px;
+        text-align: center;
+        font-size: clamp(14px, 2vw, 25px);
+      }
+      .subtitle {
+        margin-bottom: 4px;
+        text-align: center;
+        font-size: clamp(7px, 0.82vw, 12px);
+        font-weight: 700;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-size: clamp(5px, 0.67vw, 10px);
+        line-height: 1.12;
+      }
+      td,
+      th {
+        border: 1px solid #8f8f8f;
+        padding: 2px 4px;
+        height: 14px;
+        vertical-align: middle;
+        font-weight: 400;
+      }
+      th,
+      .section {
+        font-weight: 700;
+        text-align: center;
+      }
+      .section {
+        height: 15px;
+        padding: 2px;
+      }
+      .label {
+        font-weight: 700;
+      }
+      .center {
+        text-align: center;
+      }
+      .right {
+        text-align: right;
+      }
+      .small {
+        font-size: 0.88em;
+      }
+      .blank {
+        height: 15px;
+      }
+      .signature {
+        height: 28px;
+        vertical-align: bottom;
+      }
+      .date-cell {
+        vertical-align: top;
+      }
+      .signature-line {
+        display: inline-block;
+        width: 42%;
+        border-bottom: 1px solid #777;
+        margin: 0 7px;
+        height: 10px;
+      }
+      .date-line {
+        display: inline-block;
+        width: 16%;
+        border-top: 1px solid #777;
+        height: 10px;
+        margin-top: 10px;
+        margin-left: 0;
+      }
+      @media (max-width: 700px) {
+        .sheet {
+          padding: 6px 2px 12px;
+        }
+        td,
+        th {
+          padding: 1px 2px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="sheet">
+      <h1>PERSONAL DATA SHEET</h1>
+      <div class="subtitle">PERSONNEL INFORMATION FORM</div>
+
+      <table>
+        <colgroup>
+          <col span="8" />
+        </colgroup>
+        <tr>
+          <th class="section" colspan="8">I. PERSONAL INFORMATION</th>
+        </tr>
+        <tr>
+          <td class="label" rowspan="2">NAME</td>
+          <td class="label" colspan="1">LAST NAME</td>
+          <td class="label" colspan="2">FIRST NAME</td>
+          <td class="label" colspan="2">MIDDLE NAME</td>
+          <td class="label" rowspan="2">EXTENSION</td>
+          <td class="label" rowspan="2">PHOTO</td>
+        </tr>
+        <tr>
+          <td colspan="1">SAN AGUSTIN</td>
+          <td colspan="2">SABRIEL ADRIEL</td>
+          <td colspan="2">CATOLOS</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">DATE OF BIRTH</td>
+          <td colspan="2">OCTOBER 26, 2005</td>
+          <td class="label" colspan="1">PLACE OF BIRTH</td>
+          <td colspan="2">TANAY, RIZAL</td>
+          <td class="label" colspan="1">SEX</td>
+          <td colspan="1">MALE</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">CIVIL STATUS</td>
+          <td colspan="2">◯ Single &nbsp; ◯ Married</td>
+          <td class="label" colspan="1">CITIZENSHIP</td>
+          <td colspan="2">FILIPINO</td>
+          <td class="label" colspan="1">BLOOD TYPE</td>
+          <td colspan="1">O+</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">HEIGHT</td>
+          <td colspan="1">5'8</td>
+          <td class="label" colspan="1">WEIGHT</td>
+          <td colspan="1">50 kg</td>
+          <td class="label" colspan="1">RELIGION</td>
+          <td colspan="1">CATHOLIC</td>
+          <td class="label" colspan="1">AGE</td>
+          <td colspan="1">20</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">IDENTIFICATION NUMBERS</th>
+        </tr>
+        <tr>
+          <th rowspan="2">GOVERNMENT ID</th>
+          <th colspan="2">ID TYPE</th>
+          <th colspan="2">ID NUMBER</th>
+          <th colspan="1">DATE ISSUED</th>
+          <th colspan="2">PLACE ISSUED</th>
+        </tr>
+        <tr>
+          <td colspan="2">PhilSys ID</td>
+          <td colspan="2">1234-5678-9012</td>
+          <td colspan="1">2024</td>
+          <td colspan="2">QUEZON CITY</td>
+        </tr>
+        <tr>
+          <td class="label" rowspan="2">OTHER ID</td>
+          <td colspan="2">SSS</td>
+          <td colspan="2">12-3456789-0</td>
+          <td colspan="1">2023</td>
+          <td colspan="2">MANILA</td>
+        </tr>
+        <tr>
+          <td colspan="2">TIN</td>
+          <td colspan="2">123-456-789</td>
+          <td colspan="1">2023</td>
+          <td colspan="2">MANILA</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">ADDRESS INFORMATION</th>
+        </tr>
+        <tr>
+          <th rowspan="2">TYPE</th>
+          <th colspan="2">HOUSE / LOT</th>
+          <th colspan="2">STREET</th>
+          <th colspan="1">BARANGAY</th>
+          <th colspan="2">CITY / MUNICIPALITY</th>
+        </tr>
+        <tr>
+          <th colspan="2">NO.</th>
+          <th colspan="2">NAME</th>
+          <th colspan="1">NAME</th>
+          <th colspan="2">NAME</th>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">RESIDENTIAL</td>
+          <td colspan="2">123</td>
+          <td colspan="2">MAIN STREET</td>
+          <td colspan="1">SAN MIGUEL</td>
+          <td colspan="2">PASIG CITY</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">PERMANENT</td>
+          <td colspan="2">55</td>
+          <td colspan="2">G. TRINIDAD STREET</td>
+          <td colspan="1">WAWA</td>
+          <td colspan="2">TANAY, RIZAL</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">PROVINCE</td>
+          <td colspan="3">RIZAL</td>
+          <td class="label" colspan="1">ZIP CODE</td>
+          <td colspan="3">1980</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">CONTACT INFORMATION</th>
+        </tr>
+        <tr>
+          <th rowspan="2">CONTACT</th>
+          <th colspan="2">TELEPHONE</th>
+          <th colspan="2">MOBILE</th>
+          <th colspan="3">EMAIL ADDRESS</th>
+        </tr>
+        <tr>
+          <td colspan="2">02-1234-5678</td>
+          <td colspan="2">0912-345-6789</td>
+          <td colspan="3">savvv.business@gmail.com</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">II. FAMILY BACKGROUND</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">RELATIONSHIP</th>
+          <th colspan="3">NAME</th>
+          <th rowspan="2" colspan="1">DATE OF BIRTH</th>
+          <th colspan="2">OCCUPATION</th>
+          <th colspan="1">COMPANY</th>
+        </tr>
+        <tr>
+          <th colspan="1">LAST NAME</th>
+          <th colspan="1">FIRST NAME</th>
+          <th colspan="1">MIDDLE NAME</th>
+          <th colspan="1">POSITION</th>
+          <th colspan="1">COMPANY</th>
+          <th colspan="1">CONTACT NO.</th>
+        </tr>
+        <tr>
+          <td class="label" rowspan="2" colspan="1">PARENT</td>
+          <td colspan="1">SAN AGUSTIN</td>
+          <td colspan="1">NOLI</td>
+          <td colspan="1">MULDONG</td>
+          <td colspan="1">11/21/1972</td>
+          <td colspan="1">ENGINEER</td>
+          <td colspan="1">AMSA RENEWABLE</td>
+          <td colspan="1">0917-111-1111</td>
+        </tr>
+        <tr>
+          <td colspan="1">SAN AGUSTIN</td>
+          <td colspan="1">CRISELDA</td>
+          <td colspan="1">CATOLOS</td>
+          <td colspan="1">10/25/1980</td>
+          <td colspan="1">N/A</td>
+          <td colspan="1">N/A</td>
+          <td colspan="1">0918-222-2222</td>
+        </tr>
+        <tr>
+          <td class="label" rowspan="2" colspan="1">SIBLING</td>
+          <td colspan="1">SAN AGUSTIN</td>
+          <td colspan="1">SOPHIA AMIEL</td>
+          <td colspan="1">CATOLOS</td>
+          <td colspan="1">06/1/2003</td>
+          <td colspan="1">NURSE</td>
+          <td colspan="1">ABC HOSPITAL</td>
+          <td colspan="1">0919-333-3333</td>
+        </tr>
+        <tr>
+          <td colspan="1">SAN AGUSTIN</td>
+          <td colspan="1">SAMIELE ARIELE</td>
+          <td colspan="1">CATOLOS</td>
+          <td colspan="1">09/09/2012</td>
+          <td colspan="1">STUDENT</td>
+          <td colspan="1">TANAY WEST NATIONAL HIGH SCHOOL</td>
+          <td colspan="1">0920-444-4444</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">III. EDUCATIONAL BACKGROUND</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">LEVEL</th>
+          <th colspan="3">SCHOOL INFORMATION</th>
+          <th rowspan="2" colspan="1">DEGREE / COURSE</th>
+          <th colspan="2">YEAR</th>
+          <th rowspan="2" colspan="1">HONORS</th>
+        </tr>
+        <tr>
+          <th class="label" colspan="1">NAME</th>
+          <th class="label" colspan="2">ADDRESS</th>
+          <th class="label" colspan="1">FROM</th>
+          <th class="label" colspan="1">TO</th>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">ELEMENTARY</td>
+          <td colspan="1">San Ildefonso College</td>
+          <td colspan="2">Tanay, Rizal</td>
+          <td colspan="1">General Academic</td>
+          <td colspan="1">2012</td>
+          <td colspan="1">2016</td>
+          <td colspan="1">With Honors</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">SECONDARY</td>
+          <td colspan="1">Tanay West National High School</td>
+          <td colspan="2">Tanay, Rizal</td>
+          <td colspan="1">General Academic</td>
+          <td colspan="1">2012</td>
+          <td colspan="1">2016</td>
+          <td colspan="1">With Honors</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">COLLEGE</td>
+          <td colspan="1">East Sytems Colleges of Rizal</td>
+          <td colspan="2">Morong, Rizal</td>
+          <td colspan="1">BS Information Technology</td>
+          <td colspan="1">2016</td>
+          <td colspan="1">2020</td>
+          <td colspan="1">---</td>
+        </tr>
+        <tr>
+          <td class="label" colspan="1">GRADUATE</td>
+          <td colspan="1">XYZ University</td>
+          <td colspan="2">Quezon City</td>
+          <td colspan="1">Master in IT</td>
+          <td colspan="1">2021</td>
+          <td colspan="1">2023</td>
+          <td colspan="1">---</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">IV. ELIGIBILITY / LICENSE</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">TYPE</th>
+          <th colspan="3">ELIGIBILITY / LICENSE NAME</th>
+          <th rowspan="2" colspan="1">RATING</th>
+          <th colspan="2">DATE</th>
+          <th rowspan="2" colspan="1">VALID UNTIL</th>
+        </tr>
+        <tr>
+          <th colspan="1">NAME</th>
+          <th colspan="1">NUMBER</th>
+          <th colspan="1">ISSUING AGENCY</th>
+          <th colspan="1">ISSUED</th>
+          <th colspan="1">EXPIRATION</th>
+        </tr>
+        <tr>
+          <td colspan="1">ELIGIBILITY</td>
+          <td colspan="1">Civil Service Professional</td>
+          <td colspan="1">123456</td>
+          <td colspan="1">Civil Service Commission</td>
+          <td colspan="1">85.50%</td>
+          <td colspan="1">2022</td>
+          <td colspan="1">---</td>
+          <td colspan="1">Permanent</td>
+        </tr>
+        <tr>
+          <td colspan="1">LICENSE</td>
+          <td colspan="1">Professional License</td>
+          <td colspan="1">789456</td>
+          <td colspan="1">PRC</td>
+          <td colspan="1">---</td>
+          <td colspan="1">2023</td>
+          <td colspan="1">2026</td>
+          <td colspan="1">2026</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">V. WORK EXPERIENCE</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">POSITION</th>
+          <th colspan="2">EMPLOYER</th>
+          <th colspan="2">PERIOD OF EMPLOYMENT</th>
+          <th rowspan="2" colspan="1">MONTHLY SALARY</th>
+          <th rowspan="2" colspan="1">STATUS</th>
+          <th rowspan="2" colspan="1">REASON FOR LEAVING</th>
+        </tr>
+
+        <tr>
+          <th colspan="1">COMPANY</th>
+          <th colspan="1">ADDRESS</th>
+          <th colspan="1">FROM</th>
+          <th colspan="1">TO</th>
+        </tr>
+
+        <tr>
+          <td colspan="1">Junior Programmer</td>
+          <td colspan="1">ABC Technologies</td>
+          <td colspan="1">Manila</td>
+          <td colspan="1">2020</td>
+          <td colspan="1">2022</td>
+          <td colspan="1">₱25,000</td>
+          <td colspan="1">Permanent</td>
+          <td colspan="1">Career Growth</td>
+        </tr>
+        <tr>
+          <td colspan="1">Web Developer</td>
+          <td colspan="1">XYZ Solutions</td>
+          <td colspan="1">Quezon City</td>
+          <td colspan="1">2022</td>
+          <td colspan="1">2024</td>
+          <td colspan="1">₱35,000</td>
+          <td colspan="1">Permanent</td>
+          <td colspan="1">Better Opportunity</td>
+        </tr>
+        <tr>
+          <td colspan="1">IT Instructor</td>
+          <td colspan="1">ABC College</td>
+          <td colspan="1">Rizal</td>
+          <td colspan="1">2024</td>
+          <td colspan="1">Present</td>
+          <td colspan="1">₱40,000</td>
+          <td colspan="1">Permanent</td>
+          <td colspan="1">---</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">VI. TRAININGS / SEMINARS</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">TITLE OF TRAINING</th>
+          <th colspan="2">DATE</th>
+          <th rowspan="2" colspan="1">NUMBER OF HOURS</th>
+          <th colspan="2">CONDUCTED BY</th>
+          <th colspan="2">VENUE</th>
+        </tr>
+        <tr>
+          <th colspan="1">FROM</th>
+          <th colspan="1">TO</th>
+          <th colspan="1">ORGANIZATION</th>
+          <th colspan="1">TRAINER</th>
+          <th colspan="1">LOCATION</th>
+          <th colspan="1">MODE</th>
+        </tr>
+        <tr>
+          <td colspan="1">Web Development Fundamentals</td>
+          <td colspan="1">01/01/2024</td>
+          <td colspan="1">01/05/2024</td>
+          <td colspan="1">40</td>
+          <td colspan="1">ABC Training Center</td>
+          <td colspan="1">Juan Santos</td>
+          <td colspan="1">Manila</td>
+          <td colspan="1">Face-to-Face</td>
+        </tr>
+        <tr>
+          <td colspan="1">Database Management</td>
+          <td colspan="1">06/10/2024</td>
+          <td colspan="1">06/12/2024</td>
+          <td colspan="1">24</td>
+          <td colspan="1">XYZ Institute</td>
+          <td colspan="1">Maria Reyes</td>
+          <td colspan="1">Online</td>
+          <td colspan="1">Virtual</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">VII. REFERENCES</th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="1">NO.</th>
+          <th colspan="3">REFERENCE NAME</th>
+          <th colspan="2">CONTACT INFORMATION</th>
+          <th colspan="2">ADDRESS</th>
+        </tr>
+
+        <tr>
+          <th>LAST NAME</th>
+          <th>FIRST NAME</th>
+          <th>POSITION</th>
+          <th>TELEPHONE</th>
+          <th>MOBILE</th>
+          <th>STREET</th>
+          <th>CITY</th>
+        </tr>
+
+        <tr>
+          <td colspan="1">1</td>
+          <td colspan="1">SANTOS</td>
+          <td colspan="1">ROBERTO</td>
+          <td colspan="1">Manager</td>
+          <td colspan="1">02-1111-1111</td>
+          <td colspan="1">0917-111-1111</td>
+          <td colspan="1">Rizal Street</td>
+          <td colspan="1">Rizal</td>
+        </tr>
+        <tr>
+          <td colspan="1">2</td>
+          <td colspan="1">REYES</td>
+          <td colspan="1">MARIA</td>
+          <td colspan="1">Professor</td>
+          <td colspan="1">02-1111-1111</td>
+          <td colspan="1">0917-111-1111</td>
+          <td colspan="1">Rizal Street</td>
+          <td colspan="1">Rizal</td>
+        </tr>
+        <tr>
+          <td colspan="1">3</td>
+          <td colspan="1">GARCIA</td>
+          <td colspan="1">CARLO</td>
+          <td colspan="1">Supervisor</td>
+          <td colspan="1">02-1111-1111</td>
+          <td colspan="1">0917-111-1111</td>
+          <td colspan="1">Rizal Street</td>
+          <td colspan="1">Rizal</td>
+        </tr>
+
+        <tr>
+          <th class="section" colspan="8">VIII. DECLARATION</th>
+        </tr>
+        <tr>
+          <td colspan="8" class="small">
+            I hereby certify that all information provided in this Personal Data
+            Sheet are true, complete, and correct to the best of my knowledge
+            and belief.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5" rowspan="5" class="signature">
+            SIGNATURE OVER PRINTED NAME <span class="signature-line"></span>
+          </td>
+          <td colspan="3" rowspan="1">DATE SIGNED</td>
+        </tr>
+        <tr>
+          <td class="date-cell" colspan="3" rowspan="3">
+            <span class="date-line">DATE</span>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
